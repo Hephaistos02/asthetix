@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN PAGE</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cinzel|Fauna+One">
+    <style>
+.center{
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    margin-top: 60px;
+    background-color: #e7e7e7;
+    background-image: url("images/leaves-8184621_1920.png");
+    border: 2px solid rgb(216, 133, 133);
+    border-radius: 20px;
+    box-shadow: 2px 1px  11px rgb(216, 133, 133);
+    }
+    .username{
+        padding-top: 15px;
+        text-align: center;
+        font-size: 40px;
+        font-family: "Audiowide", sans-serif;
+        text-shadow: 2px 2px 4px rgb(216, 133, 133);
+        text-transform: uppercase;
+        
+    }
+    .pass{
+        padding-top: 30px;
+        text-align: center;
+        font-size: 40px;
+        text-shadow: 2px 2px 4px rgb(216, 133, 133);
+        font-family: "Audiowide", sans-serif;
+        text-transform: uppercase;
+        
+    
+    }
+    
+    h1{
+        text-align: center;
+        text-decoration: underline;
+        font-family: 'Fauna One', serif;
+        padding-top: 30px;
+        text-transform: uppercase;
+
+    }
+    .submit{
+            text-align: center;
+            
+            
+            
+            
+    }
+    .sign{
+        padding: 10px;
+        width: 300px;
+        border: 1px solid rgb(216, 133, 133);
+        font-weight: 900;
+        cursor: pointer;
+        color: rgb(0, 0, 0);
+        font-family: "Audiowide", sans-serif;
+        box-shadow: 1px 1px 11px rgb(216, 133, 133);
+        background-image: linear-gradient(to right ,rgb(216, 133, 133), rgb(128, 125, 125));
+        border-radius: 5px;
+        
+    }
+    .sign:hover{
+        border: 1px solid rgb(216, 133, 133);
+        background-image: linear-gradient(to left ,rgb(216, 133, 133), rgb(128, 125, 125));
+        transition: 0.1s ;
+        color: white;
+        box-shadow: 1px 1px 11px rgb(216, 133, 133);
+    }
+    .input1:hover{
+        border: 2px solid gray ;
+
+    }
+    .input2:hover{
+        border: 2px solid gray ;
+
+    }
+    ::placeholder{
+        color: black;
+        font-weight: 500;
+        font-family: "Audiowide", sans-serif;
+        
+    }
+    </style>
+</head>
+<body>
+    <div class="center">
+        <h1>Sign-Up Form</h1>
+        <div class="username">
+            <label for="">Username</label>
+            <br>
+            <input class="input1" type="text" style=" border: 1.5px solid black; border-radius: 5px; font-size: 15px;  height: 30px; width: 400px; font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif  " placeholder="Enter your Name " required >
+        </div>
+        <div class="pass">
+            <label for="">Password</label>
+            <br>
+            <input class="input2" type="password" style=" border: 1.5px solid black; border-radius: 5px; font-size: 15px; height: 30px; width: 400px; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; " placeholder="Enter Your Password" required>
+                <br>
+                <br>
+             </div>
+        <div class="submit">
+            <button class="sign">SIGN IN</button>
+        </div>
+    </div>
+
+</body>
+</html>
