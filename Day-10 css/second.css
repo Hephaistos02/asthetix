@@ -1,0 +1,22 @@
+.main-container{
+    display: flex;
+}
+
+.top-div{
+    align-self: flex-start;
+}
+.bottom-container{
+    display: flex;
+}
+.bottom-box{
+    flex: 1;
+    border: 1px solid #000;
+    padding: 10px;
+    margin: 5px;
+}
+.box1{
+    background-color: red;
+}
+.box2{
+    background-color: blue;
+}
